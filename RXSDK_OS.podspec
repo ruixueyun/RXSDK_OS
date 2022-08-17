@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RXSDK_OS'
-  s.version          = '2.2.4'
+  s.version          = '2.2.5'
   s.summary          = 'ruixue main framework.'
 
 # This description is used to generate tags and improve searc results.
@@ -48,5 +48,8 @@ TODO: Add long description of the pod here.
   s.dependency 'AFNetworking'
   s.dependency 'YYModel'
   s.dependency 'MBProgressHUD'
+  s.dependency 'GoogleSignIn'
+  s.dependency 'FBSDKLoginKit'
+  s.dependency 'FBSDKShareKit'
   
 end
